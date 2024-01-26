@@ -16,7 +16,7 @@
 Estás postulando para un puesto de desarrollador **Front-end** en una empresa que trabaja con clientes internacionales. Para poner a prueba tus habilidades te han pedido construir una aplicación web en **Next.js** que permita visualizar los datos de un **Pokemon**. Para esto te han asignado un Pokemon, te han proporcionado la documentación de la API de Pokemon para obtener los datos que debe consumir tu aplicación y te han proporcionado el **diseño de UI/UX mínimo** [Figma](https://cutt.ly/YwL1XB9s) que debe cumplir tu aplicación.
 | id del Pokemon |
 |----------------|
-|  `<id de pokemon asignado> `|
+|  `<110> `|
 
 #### Documentación de la API de Pokemon:
 `GET https://pokeapi.co/api/v2/pokemon/{id o nombre de pokemon}`
@@ -66,7 +66,7 @@ Estás postulando para un puesto de desarrollador **Front-end** en una empresa q
 
 
 ### Tareas:
-1. En este README.md debes colocar el **110** que te ha sido asignado y realizar un commit con el mensaje **"Asignación de Pokemon"**.
+1. En este README.md debes colocar el **id del Pokemon** que te ha sido asignado y realizar un commit con el mensaje **"Asignación de Pokemon"**.
 2. Debes construir una aplicación en **Next.js** con los componentes necesarios para cumplir con el diseño mínimo de UI/UX presentado en [Figma ](https://cutt.ly/YwL1XB9s)
 
 ![Diseño Pokedex](https://live.staticflickr.com/65535/53488146658_c14ae2d79c_z.jpg)

@@ -5,9 +5,24 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  background: #F5F7FB;
 }
 
 .description {
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  max-width: 20%;
+  width: 100%;
+  z-index: 2;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #26367C;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+  /*.description {
   display: inherit;
   justify-content: inherit;
   align-items: inherit;
@@ -17,14 +32,21 @@
   z-index: 2;
   font-family: var(--font-mono);
 }
+*/
 
 .description a {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: #1100ff;
+  font-family: 'Courier New', Courier, monospace;
+}
+  /*  .description a {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
 }
-
+*
 .description p {
   position: relative;
   margin: 0;
@@ -137,6 +159,7 @@
     margin-bottom: 120px;
     max-width: 320px;
     text-align: center;
+    background: #da4a4a;
   }
 
   .card {
@@ -214,10 +237,10 @@
   .vercelLogo {
     filter: invert(1);
   }
-
   .logo {
     filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
   }
+  
 }
 
 @keyframes rotate {
